@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    background-color: rgb(17, 14, 14);
+    z-index: 4;
+}
+
+#main {
+    overflow: hidden;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(17, 14, 14);
+    z-index: 1;
+}
+
+#screen {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 250px;
+    height: 250px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border: 0px;
+    z-index: 1;
+}
+
+.star {
+    position: absolute;
+    border: 0px solid rgb(241, 222, 222);
+    border-radius: 100%;
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+    z-index: 1;
+}
